@@ -1,16 +1,11 @@
 
 public class Judge {
 
-	public static void main(String[] args) {
-		judge(0);
-		judge(1);
-	}
-
-	public static void judge(int n) {
-		if(n == 0) {
-			System.out.println("nの値は" + n + "なので偽です");
-		}else if(n == 1) {
-			System.out.println("nの値は" + n + "なので真です");
+	static void judge(int b) {
+		if(b == 1) {
+			System.out.println("真");
+		}else if(b == 0) {
+			System.out.println("偽");
 		}
 	}
 
