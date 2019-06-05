@@ -26,4 +26,15 @@ public class WorkPlaceCommunication implements Communication {
 		}
 	}
 
+	@Override
+	public void greet2(String person) throws Exception{
+		if(this.placeName == "職場" && person == "同僚") {
+			System.out.println("「こんにちは」");
+		}else if(this.placeName == "職場" && person == "上司") {
+		throw new IllegalArgumentException("「引数に問題ありです」");
+		}else {
+			System.out.println("「・・・」");
+		}
+	}
+
 }

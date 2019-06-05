@@ -15,8 +15,8 @@ public class MapLesson {
 
 		System.out.println(" ");
 
-		for (Entry<Integer, String> u : users.entrySet()) {
-			System.out.println(u.getKey() + ":" + u.getValue());
+		for (Entry<Integer, String> user : users.entrySet()) {
+			System.out.println(user.getKey() + ":" + user.getValue());
 		}
 
 		System.out.println(" ");

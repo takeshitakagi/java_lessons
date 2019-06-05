@@ -11,8 +11,8 @@ public class ListLesson {
 		enemies.add("ドラゴン");
 		enemies.add("ゴーレム");
 
-		for (String e : enemies) {
-			System.out.println(e + "が現れた!!");
+		for (String enemy : enemies) {
+			System.out.println(enemy + "が現れた!!");
 		}
 
 	}

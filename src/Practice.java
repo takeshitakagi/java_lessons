@@ -1,6 +1,6 @@
 public class Practice {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		//	課題1　変数を使って「こんにちは」を出力する
 		System.out.println("課題1");
@@ -61,6 +61,12 @@ public class Practice {
 		com1.greet("こんにちは", "同僚");
 		com1.greet("ご苦労様", "上司");
 		com1.greet("ご苦労様", "他人");
+		System.out.println(" ");
+		WorkPlaceCommunication com2 = new WorkPlaceCommunication("職場");
+		com2.greet2("同僚");
+		com2.greet2("上司");
+		com2.greet2("他人");
+
 
 	}
 
